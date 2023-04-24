@@ -16,7 +16,7 @@
     width: 100%;
 }
 
-.more-info {
+.header__info {
     font-family: fantasy, cursive;
 }
 
@@ -42,6 +42,7 @@
 
 .task-row__wrapper {
     display: flex;
+    padding-top: 15px;
 }
 
 ul {
@@ -117,7 +118,6 @@ li {
     overflow: hidden;
     padding: 20px 0;
     border-bottom: 1px solid #eee;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
